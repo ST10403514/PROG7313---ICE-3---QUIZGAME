@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/results_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz Results"
+        android:textSize="24sp"
+        android:textColor="#2C3E50"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Username: Player1"
+        android:textSize="18sp"
+        android:textColor="#34495E"
+        app:layout_constraintTop_toBottomOf="@id/results_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Category -->
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Category: History"
+        android:textSize="18sp"
+        android:textColor="#34495E"
+        app:layout_constraintTop_toBottomOf="@id/username_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Correct Answers -->
+    <TextView
+        android:id="@+id/correct_answers_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Correct Answers: 0/10"
+        android:textSize="18sp"
+        android:textColor="#34495E"
+        app:layout_constraintTop_toBottomOf="@id/category_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Time Taken -->
+    <TextView
+        android:id="@+id/time_taken_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Time Taken: 0s"
+        android:textSize="18sp"
+        android:textColor="#34495E"
+        app:layout_constraintTop_toBottomOf="@id/correct_answers_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Total Score -->
+    <TextView
+        android:id="@+id/total_score_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Total Score: 0"
+        android:textSize="20sp"
+        android:textColor="#27AE60"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/time_taken_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Score"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#27AE60"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769461681329",
+    "project_id": "quizgame-5939d",
+    "storage_bucket": "quizgame-5939d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769461681329:android:a1e2094cc3068ee4d2f690",
+        "android_client_info": {
+          "package_name": "com.mason.quizgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcZ0a2lVi0OpgKrRNMt0JIWtxPfPP_do4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
